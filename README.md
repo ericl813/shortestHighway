@@ -58,7 +58,7 @@ Content of dist.txt
  22.4 31.8 27.9 30.0 33.2 40.2 0.0
  
 Content of testOut (after program is ran)
-47 Aberystwyth Nottingham
+47 Aberystwyth Nottingham \n
 67 Newcastle Liverpool
 88 Edinburgh Glasgow
 108 Stratford London
