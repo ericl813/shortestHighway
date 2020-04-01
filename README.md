@@ -32,7 +32,7 @@ shortest highway system. The output file will have the names of two cities and t
 between them following on each line.
 
 Examples of Tests:  
-Run “./build/shortestHighway names.txt dist.txt testOut” in terminal after building  
+Run “./build/shortestHighway names.txt dist.txt testOut” in terminal after "make all"
 
 Content of names.txt  
 Aberystwyth  
