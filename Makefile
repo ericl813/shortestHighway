@@ -17,9 +17,9 @@ BUILDDIR := build
 OBJDIR := $(BUILDDIR)/obj
 
 
-all: init part3
+all: init shortestHighway
 
-part3: init $(addprefix $(OBJDIR)/,part3.o Graph.o)
+shortestHighway: init $(addprefix $(OBJDIR)/,shortestHighway.o Graph.o)
 	$(CC) $(LDFLAGS) -o $(BUILDDIR)/$@ $(filter-out init,$^)
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
